@@ -2,8 +2,12 @@
 *{
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
+
+/*---------------------
+    HEADER SECTION
+---------------------- */
 .hero-header{
     background-image: url("../images/bg-pattern-intro-desktop.svg"), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
     background-position: center left 25%;
@@ -52,4 +56,49 @@
 .learn-more-btn:hover{
     color:hsl(353, 100%, 62%);
     background-color: #fff;
+}
+
+
+/* MAIN SECTION */
+
+/* EDITOR SECTION */
+
+.editor{
+    overflow: hidden;
+    padding-top: 70px;
+}
+.editor h2{
+    font-family: 'Overpass', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: hsl(208, 49%, 24%);
+}
+
+.editor-container{
+    position: relative;
+    
+    height: 800px;
+}
+
+.editor-features h3{
+    font-family: 'Overpass', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 30px;
+}
+.editor-features p{
+    font-family: 'Overpass', sans-serif;
+    width: 50%;
+    color: hsl(207, 13%, 34%);
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.editor-img{
+    position: absolute;
+    right: -19%;
+    top: -10%;
+    overflow-y: hidden;
+       
 }
