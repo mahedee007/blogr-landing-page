@@ -158,8 +158,27 @@
 
     .footer{
         background-color:hsl(240, 10%, 16%);
-        height: 600px;
+        height: 100%;
         border-radius: 0 100px 0 0;
+        padding-bottom: 30px;
+    }
+    .footer h4{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-bottom: 20px;
+
+    }
+    .footer a{
+        color: hsl(240, 2%, 79%);
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+        padding-bottom: 10px;
+        
+    }
+    .footer a:hover{
+        text-decoration: underline;
     }
 /* -----------------------
           Media screen
