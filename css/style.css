@@ -117,6 +117,50 @@
     height: 420px;
 }
 
+
+/* Laptop Section */
+.laptop{
+    overflow: hidden;
+    padding-top: 70px;
+}
+.laptop-container{
+    position: relative;
+    height: 800px;
+}
+.laptop-img{
+    position: absolute;
+    left: -19%;
+    top: 5%;
+    
+
+}
+.laptop-features{
+    position: absolute;
+    left: 50%;
+} 
+.laptop-features h3{
+    font-family: 'Overpass', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 30px;
+}
+.laptop-features p{
+    font-family: 'Overpass', sans-serif;
+    width: 50%;
+    color: hsl(207, 13%, 34%);
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: justify;}
+
+
+    /* FOOTER SECTION */
+
+    .footer{
+        background-color:hsl(240, 10%, 16%);
+        height: 600px;
+        border-radius: 0 100px 0 0;
+    }
 /* -----------------------
           Media screen
 -------------------------- */
@@ -165,5 +209,30 @@
         margin-bottom: 30px;
         margin-top: -130px;
     }
-    
+
+
+    /* LAPTOP SECTION RESPONSIVE */
+
+    .laptop-container{
+        position: static;
+        height: 100%;
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+    .laptop-img{
+        position: static;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .laptop-features{
+        position: static;
+    }
+    .laptop-features h3{
+        text-align: center;
+    }
+    .laptop-features p{
+        text-align: center;
+        width: 100%;
+    }
 }
